@@ -1,43 +1,41 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
-
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-
+  <link rel="stylesheet" type="text/css"  href="assets/css/style.css">
+  <title>About Me</title>
 </head>
-
 <body>
-  <header>
-    <h1>Student Bio</h1>
-  </header>
-
-  <div class="container">
-
-    <section id="main-bio">
-
-      <h2>Jacob Borgen</h2>
-
-      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
-
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
-
-    <section id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+    <div class="header">
+      <div class="inner-header">
+        <div class="name-container">
+          <h1>Jacob Borgen</h1>
+        </div>
+      </div>
+      <ul class="navigation">
+        <a><li>About</li></a>
+        <a><li>Contact</li></a>
+        <a><li>Portfolio</li></a>
       </ul>
-    </section>
-  </div>
+    </div>
+  <div class= "textbox">
+    <h1>About Me</h1>
+    <img src= "assets/images/About-me.jpg" alt= "about me">
+    <p> I graduated from University of Missouri in 2014 with a degree
+      in Hospitality. I have since had a career managing various facets 
+      of the Kansas City Marriott Downtown, most recently in their Food
+      and Beverage division.</p>
 
+      <p> I recently decided to look into a complete career change and
+        Computer Programming has always been of great interest to me.
+        The rest is history as I am currently working towards completing 
+        KU's Coding Bootcamp Program.</p>
+
+        <p> Aside from my professional interests I enjoy all things cooking
+          and at one point was interested in becoming a chef and still have 
+          aspirations to own a restaurant. I also enjoy music and play several
+          string instruments. In my free time I lounge around with my fiance and 
+          boxer puppy child whenever I can.
+        </p>
+  </div>  
 </body>
-
 </html>
-
