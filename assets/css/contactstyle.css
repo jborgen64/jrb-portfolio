@@ -12,8 +12,8 @@
     background-color: #ffffff;
     border: 2px solid #cccccc;
     margin-bottom: 100px;
-
-
+    padding-left: 200px;
+    padding-right: 1000px;
 }
 
 .inner-header{
@@ -21,9 +21,9 @@
     width: 200px;
     height: 100%;
     display: block;
-    margin: 0px auto;
     background-color: #4aaaa5;
     margin-left: 200px;
+    margin: auto;
 }
 
 .name-container{
@@ -45,13 +45,14 @@
 .navigation{
     float: right;
     height: 100%;
+    margin-right: 200px;
 }
 
 .navigation a{
     float: left;
     display: table;
     height: 100%;
-    margin-right: 100px;
+    margin-right: 50px;
 } 
 
 .navigation a li{
@@ -63,44 +64,72 @@
     vertical-align: middle;
 }
 
-
-.textbox{
-    border: 2px solid #dddddd;
-    margin: 0px auto;
-    padding: 30px;
-    width: 960px;
-    background-color: #ffffff;
-    height: 360px;
+body{
+    background-image: url("/Users/jborgen/Desktop/ripples/ripples.png"); 
 }
 
-.textbox h1{
+.contactbox {
+    border: 2px #dddddd solid;
+    background-color: #ffffff;
+    width: 960px;
+    height: 360px;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+.contactheader {
     border-bottom: 2px solid #dddddd;
+    width: 940px;
+    height: 45px;
     padding: 10px;
-    margin: none;
-    float: left;
-    clear: right;
-    width: 100%;
+}
+
+.headertext {
     color: #4aaaa5;
+    margin-top: 15px;
+    float: left;
     font-size: 24px;
 }
 
-.textbox p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-    line-height: 25px;
-    margin: 20px;
-}
-
-.textbox img{
-    height: 200px;
-    width: 150px;
-    margin: 10px;
+.namebox {
+    width: 90%;
     float: left;
+    margin: 10px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
 }
 
-body{
-    background-image: url("/Users/jborgen/Desktop/ripples/ripples.png");
+input[type="text"] {
+    border: 2px #dddddd solid;
+    width: 90%;
+    height: 30px;
+    margin-left: 20px;
 }
+
+.emailbox {
+    width: 90%;
+    float: left;
+    Margin: 10px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+}
+
+.messagebox {
+    width: 90%;
+    float: left;
+    Margin: 10px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+}
+
+.resizedtextbox {
+    height: 300px;
+    width: 90%;
+}
+
 
 .footerpusher {
     padding: 50px;
