@@ -23,7 +23,7 @@
     display: block;
     margin: 0 auto;
     background-color: #4aaaa5;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 .name-container{
@@ -45,6 +45,7 @@
 .navigation{
     float: right;
     height: 100%;
+    margin-right: 100px;
 }
 
 .navigation a{
@@ -104,7 +105,7 @@ body{
 
 .footerpusher {
     padding: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 
 }
 

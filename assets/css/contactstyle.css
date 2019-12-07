@@ -11,18 +11,18 @@
     display: block;
     background-color: #ffffff;
     border: 2px solid #cccccc;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding-left: 200px;
     padding-right: 1000px;
 }
 
 .inner-header{
     float: left;
-    width: 200px;
+    width: 150px;
     height: 100%;
     display: block;
     background-color: #4aaaa5;
-    margin-left: 200px;
+    margin-left: 150px;
     margin: auto;
 }
 
@@ -65,14 +65,14 @@
 }
 
 body{
-    background-image: url("/Users/jborgen/Desktop/ripples/ripples.png"); 
+    background-image: url("/Users/jborgen/Desktop/ripples/ripples.png");
 }
 
 .contactbox {
     border: 2px #dddddd solid;
     background-color: #ffffff;
     width: 960px;
-    height: 360px;
+    height: 460px;
     margin: 0px auto;
     padding: 30px;
 }
@@ -107,6 +107,11 @@ input[type="text"] {
     margin-left: 20px;
 }
 
+.biggerbox {
+    height: 300px;
+    padding-bottom: 150px;
+}
+
 .emailbox {
     width: 90%;
     float: left;
@@ -125,15 +130,10 @@ input[type="text"] {
     color: #777777;
 }
 
-.resizedtextbox {
-    height: 300px;
-    width: 90%;
-}
-
 
 .footerpusher {
     padding: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 0px auto;
 
 }
 
@@ -144,7 +144,7 @@ input[type="text"] {
     display: block;
     border-top: 5px solid;
     border-color: #4aaaa5;
-    border-bottom: #777777 100px solid;
+    border-bottom: #777777 50px solid;
     margin-top: auto;
     position: absolute;
     top: 90%;
