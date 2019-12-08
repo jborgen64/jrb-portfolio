@@ -11,19 +11,19 @@
     display: block;
     background-color: #ffffff;
     border: 2px solid #cccccc;
-    margin-bottom: 100px;
-
-
+    margin-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 1000px;
 }
 
 .inner-header{
     float: left;
-    width: 200px;
+    width: 150px;
     height: 100%;
     display: block;
-    margin: 0 auto;
     background-color: #4aaaa5;
-    margin-left: 250px;
+    margin-left: 150px;
+    margin: auto;
 }
 
 .name-container{
@@ -45,14 +45,14 @@
 .navigation{
     float: right;
     height: 100%;
-    margin-right: 100px;
+    margin-right: 400px;
 }
 
 .navigation a{
     float: left;
     display: table;
     height: 100%;
-    margin-right: 100px;;
+    margin-right: 50px;
 } 
 
 .navigation a li{
@@ -101,6 +101,7 @@
 
 body{
     background-image: url("/Users/jborgen/Desktop/ripples/ripples.png");
+    min-height: 100vh;
 }
 
 .footerpusher {
