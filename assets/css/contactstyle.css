@@ -72,9 +72,10 @@ body{
     border: 2px #dddddd solid;
     background-color: #ffffff;
     width: 960px;
-    height: 460px;
+    height: 480px;
     margin: 0px auto;
     padding: 30px;
+    padding-bottom: 0px;
 }
 
 .contactheader {
@@ -125,12 +126,25 @@ input[type="text"] {
     float: left;
     Margin: 10px;
     margin-top: 20px;
+    margin-bottom: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;
 }
 
 #biggerbox {
     height: 150px;
+}
+
+button[type="submit"] {
+    width: 100px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .footerpusher {
