@@ -91,12 +91,44 @@
     margin: 10px;
 }
 
+#container1 {
+    position: relative;
+}
+
+#textblock1{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    padding: 5px;
+    width: 190px;
+    height: 25px;
+    margin-top: 165px;
+    margin-left: 10px;
+    text-align: center;
+}
+
 #rpg {
     height: 150px;
     width: 200px;
     float: left;
     margin: 10px;
+    clear: right;
+}
 
+#container2 {
+    position: relative;
+}
+
+#textblock2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    padding: 5px;
+    width: 190px;
+    height: 25px;
+    margin-top: 165px;
+    margin-left: 230px;
+    text-align: center;
 }
 
 #trivia {
@@ -105,27 +137,72 @@
     float: left;
     clear:left;
     margin: 10px;
+}
 
+#container3 {
+    position: relative;
+}
 
+#textblock3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    padding: 5px;
+    width: 190px;
+    height: 25px;
+    margin-top: 330px;
+    margin-left: 10px;
+    text-align: center;
 }
 
 #widget {
     height: 150px;
     width: 200px;
     float: left;
+    clear: right;
     clear: left;
-    margin: 10px;
+    margin-left: 10px;
+}
+
+#container4 {
+    position: relative;
+}
+
+#textblock4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    padding: 5px;
+    width: 190px;
+    height: 25px;
+    margin-top: 330px;
+    margin-left: 230px;
+    text-align: center;
 }
 
 #rps {
     height: 150px;
     width: 200px;
-    float: left;
-    clear: left;
-    clear: right;
     margin: 10px;
-
+    float: left;
 }
+
+#container5 {
+    position: relative;
+}
+
+#textblock5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    padding: 5px;
+    width: 190px;
+    height: 25px;
+    margin-top: 490px;
+    margin-left: 10px;
+    text-align: center;
+}
+
 
 body{
     background-image: url("/Users/jborgen/Desktop/ripples/ripples.png");
